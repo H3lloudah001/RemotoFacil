@@ -1,0 +1,27 @@
+Corregido
+
+- Ahora el PC detecta los mandos. Las versiones recientes de Sunshine para Windows ya no traen el driver que hace falta para los mandos. Por eso Moonlight se conectaba bien, pero ningún juego veía el mando.
+
+Novedades
+
+- El asistente instala el driver de mandos (ViGEmBus). Va justo después de Sunshine, sin ventanas ni preguntas. Antes de instalarlo, RemotoFácil comprueba que el archivo descargado es el original.
+- Sunshine queda configurado para usar ese driver. Así deja de pedir que elijas uno y no anuncia la alternativa de pago.
+- El centro de control indica si los mandos funcionarán. La tarjeta de Sunshine muestra "Mandos: listos" o "Mandos: falta el driver · Instalar". Si falta, el estado general avisa con "Los mandos no funcionarán".
+- Arreglo con un clic para los PCs ya configurados. El enlace "Instalar" pone el driver, ajusta Sunshine y lo reinicia, sin repetir el asistente.
+
+Cambios
+
+- Desinstalar: al quitar Sunshine también se quita el driver de mandos, pero solo si lo instaló RemotoFácil. Si ya lo tenías por otro programa (DS4Windows, por ejemplo), se deja.
+- La pantalla de bienvenida menciona el driver de mandos.
+- En la tarjeta de Sunshine, la línea "Panel web: …" pasa a ser la del estado de los mandos. El panel se sigue abriendo con "Abrir Sunshine".
+
+Cómo actualizar
+
+- Si ya lo tenías configurado: abre el nuevo RemotoFacil.exe y pulsa Instalar en la tarjeta de Sunshine.
+- Si lo configuras por primera vez: no tienes que hacer nada, el asistente ya lo incluye.
+
+A tener en cuenta
+
+- El PC verá tu mando como uno de Xbox 360 o DualShock 4 (PS4). Funciona con casi todos los juegos.
+- Si estabas conectado desde Moonlight cuando se instaló el driver, sal de la sesión y vuelve a entrar.
+- Si Windows pide reiniciar después de instalar el driver y el mando no va, reinicia el PC.

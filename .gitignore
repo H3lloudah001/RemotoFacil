@@ -1,0 +1,14 @@
+# Salidas de compilación de .NET
+bin/
+obj/
+
+# Empaquetado (lo regenera construir-appimage.sh)
+linux/compilacion/
+*.AppImage
+
+# Ejecutables
+*.exe
+
+# Secretos locales
+.env
+.env.*
